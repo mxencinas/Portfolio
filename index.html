@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Maxi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- HEADER CON NAV -->
+  <header id="inicio">
+    <nav class="nav-bar">
+      <div class="nav-wrapper">
+        <div class="nav-container">
+          <div class="nav-left">
+            <h1><a href="#inicio">Maximiliano Encinas</a></h1>
+          </div>
+
+          <div class="nav-center">
+            <ul>
+              <li><a href="#sobre-mi">Sobre mí</a></li>
+              <li><a href="#conocimientos">Conocimientos</a></li>
+              <li><a href="#proyectos">Proyectos</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+            </ul>
+          </div>
+
+          <div class="nav-right redes">
+            <a href="https://github.com/mxencinas" target="_blank">
+              <img src="img/icono-github.jpg" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/maximiliano-encinas-1a441a223" target="_blank">
+              <img src="img/icono-linkedin.png" alt="LinkedIn">
+            </a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </nav>
+
+    <div class="pantalla-principal">
+      <h2>Bienvenido a mi portfolio</h2>
+      <h3>Maximiliano Gaston Encinas</h3>
+      <p>Desarrollador backend .NET - Ingeniería en Sistemas - UTN FRBA</p>
+      <div class="redes">
+        <a href="https://github.com/mxencinas" target="_blank"><img src="img/icono-github.jpg" alt="GitHub"></a>
+        <a href="https://www.linkedin.com/in/maximiliano-encinas-1a441a223" target="_blank"><img
+            src="img/icono-linkedin.png" alt="LinkedIn"></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- SOBRE MI -->
+  <section id="sobre-mi">
+    <div class="sobre-mi-container">
+      <img src="img/foto-maximiliano.jpg" alt="Foto Maximiliano" class="foto-perfil">
+      <div class="info">
+        <h2>Sobre mí</h2>
+        <p>Soy estudiante de Ingeniería en Sistemas de Información en la UTN FRBA, con una sólida base técnica y muchas
+          ganas de aprender. Actualmente me encuentro en proceso de transición desde el sector logístico hacia el mundo
+          IT, con especial interés en el desarrollo backend. Me defino como una persona
+          comprometida, autodidacta y proactiva. Busco mi primera experiencia laboral como desarrollador, donde pueda
+          seguir creciendo profesionalmente, aportar valor y aprender de un equipo de trabajo real.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONOCIMIENTOS -->
+  <section id="conocimientos" class="seccion">
+    <h2>Conocimientos</h2>
+    <div class="grid-conocimientos">
+      <img src="img/icono-csharp.png" alt="C#">
+      <img src="img/icono-dotnet.png" alt=".NET">
+      <img src="img/icono-sqlserver.png" alt="SQL Server">
+      <img src="img/icono-java.png" alt="Java">
+      <img src="img/icono-spring.png" alt="Spring">
+      <img src="img/icono-html.png" alt="HTML">
+      <img src="img/icono-css.png" alt="CSS">
+      <img src="img/icono-javascript.png" alt="JavaScript">
+      <img src="img/icono-git.png" alt="Git">
+      <img src="img/icono-github.jpg" alt="GitHub">
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section id="proyectos" class="seccion alt-bg">
+    <h2>Proyectos</h2>
+    <div class="grid-proyectos">
+      <div class="card-proyecto" onclick="window.open('https://github.com/mxencinas/tp-winform-equipo-E', '_blank')">
+        <img src="img/proyecto-catalogo.png" alt="Proyecto 1">
+        <h3>App catálogo</h3>
+        <p>App para gestionar articulos con base de datos.</p>
+      </div>
+      <div class="card-proyecto" onclick="window.open('https://github.com/mxencinas/tp-winform-equipo-E', '_blank')">
+        <img src="img/proyecto-catalogo2.png" alt="Proyecto 2">
+        <h3>App catálogo</h3>
+        <p>App para gestionar articulos con base de datos.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="seccion">
+    <h2>Contacto</h2>
+    <form id="formulario-contacto">
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu email" required>
+      <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Maximiliano Encinas. Todos los derechos reservados.</p>
+    <div class="redes">
+      <a href="https://github.com/mxencinas" target="_blank"><img src="img/icono-github.jpg" alt="GitHub"></a>
+      <a href="https://www.linkedin.com/in/maximiliano-encinas-1a441a223" target="_blank"><img
+          src="img/icono-linkedin.png" alt="LinkedIn"></a>
+    </div>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+
+</html>
