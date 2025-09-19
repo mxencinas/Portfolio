@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maximiliano Encinas - Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="dark-mode">
+    <nav>
+        <div class="container nav-container">
+            <a href="#inicio" class="logo">Maximiliano Encinas</a>
+            <div class="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#about">Sobre Mí</a>
+                <a href="#skills">Habilidades</a>
+                <a href="#projects">Proyectos</a>
+                <a href="#education">Formación</a>
+                <a href="#contact">Contacto</a>
+            </div>
+            <div class="nav-icons">
+                <button id="theme-toggle"><i class="fas fa-sun"></i></button>
+                <a href="https://www.linkedin.com/in/maximiliano-encinas-1a441a223/" target="_blank"
+                    aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/mxencinas" target="_blank" aria-label="GitHub"><i
+                        class="fab fa-github"></i></a>
+                <div class="mobile-menu-btn"><i class="fas fa-bars"></i></div>
+            </div>
+        </div>
+    </nav>
+
+    <header id="inicio" class="inicio-section">
+        <div class="container inicio-container">
+            <div class="inicio-text">
+                <h1>
+                    <span class="line line-1">Hola, soy</span>
+                    <span class="line line-2">Maximiliano Encinas</span>
+                </h1>
+                <p>Desarrollador de Software y estudiante de Ingeniería Industrial, apasionado por crear soluciones
+                    escalables y eficientes.</p>
+                <div class="inicio-buttons">
+                    <a href="#contact" class="btn">Contáctame</a>
+                    <a href="assets/MAXIMILIANO ENCINAS.pdf" class="btn btn-secondary" id="download-cv"
+                        download>Descargar CV</a>
+                </div>
+            </div>
+            <div class="inicio-img">
+                <div class="profile-image-container">
+                    <img src="https://placehold.co/400x400/4d5bff/FFFFFF?text=ME" alt="Maximiliano Encinas">
+                    <div class="image-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section-light">
+        <div class="container about-container">
+            <h2>Sobre mí</h2>
+            <div class="about-content">
+                <p id="about-short">Estudiante de Ingeniería Industrial con formación en programación, apasionado por el
+                    desarrollo de software y la mejora continua.</p>
+                <p id="about-full" class="hidden">Estudiante de Ingeniería Industrial con formación en programación,
+                    apasionado por el desarrollo de software y la mejora continua. Me destaco por mi capacidad analítica
+                    y enfoque lógico-sistémico, lo que me permite abordar desafíos complejos con creatividad y eficacia.
+
+                    Mi interés se centra en el desarrollo backend y el ecosistema SAP, con el objetivo de participar en
+                    proyectos que ofrezcan soluciones tecnológicas escalables y eficientes. Busco integrarme en equipos
+                    que fomenten la innovación y trabajen en entornos orientados a la mejora continua, donde pueda
+                    aportar valor mientras sigo creciendo y perfeccionando mis competencias profesionales.</p>
+                <button id="about-toggle" class="btn btn-outline">Leer más</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section section-dark">
+        <div class="container">
+            <h2>Mis Habilidades</h2>
+            <div class="skills-container">
+                <div class="skills-column tech-skills">
+                    <div class="skills-header">
+                        <div class="icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Habilidades Técnicas</h3>
+                    </div>
+
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="skill-name">Python</div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <div class="skill-name">JavaScript</div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-name">SQL</div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fa fa-bolt" aria-hidden="true"></i>
+                            </div>
+                            <div class="skill-name">FASTAPI</div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <div class="skill-name">Node.js</div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-name">SQL Server</div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-sync-alt"></i>
+                            </div>
+                            <div class="skill-name">ABAP</div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-paint-brush"></i>
+                            </div>
+                            <div class="skill-name">FIORI</div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <div class="skill-name">SAP BTP</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-column soft-skills">
+                    <div class="skills-header">
+                        <div class="icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>Habilidades Blandas</h3>
+                    </div>
+
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-handshake-alt"></i>
+                            </div>
+                            <div class="skill-name">Colaboración</div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-redo-alt"></i>
+                            </div>
+                            <div class="skill-name">Flexibilidad</div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-book"></i>
+                            </div>
+                            <div class="skill-name">Aprendizaje Autónomo</div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-sync-alt"></i>
+                            </div>
+                            <div class="skill-name">Adaptabilidad</div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="skill-name">Pensamiento Analítico</div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="skill-name">Trabajo en Equipo</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section-light">
+        <div class="container">
+            <h2>Mis Proyectos</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Catálogo de Artículos</h3>
+                        <p>Aplicación de escritorio desarrollada con Windows Forms y C# para la gestión de un catálogo
+                            de productos, con funciones de búsqueda y visualización de detalles.</p>
+                        <div class="project-tags">
+                            <span>C#</span>
+                            <span>Windows Forms</span>
+                            <span>SQL Server</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://github.com/mxencinas/tp-winform-equipo-E" class="btn btn-demo">Demo</a>
+                            <a href="https://github.com/mxencinas/tp-winform-equipo-E"
+                                class="btn btn-repo">Repositorio</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Tienda Sol</h3>
+                        <p>Plataforma de comercio electrónico escalable, desarrollada con JavaScript y tecnologías
+                            modernas para una experiencia de usuario fluida y eficiente.</p>
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>React</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://github.com/mxencinas" class="btn btn-demo">Demo</a>
+                            <a href="https://github.com/mxencinas" class="btn btn-repo">Repositorio</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>ChatBot con RAG e IA</h3>
+                        <p>ChatBot inteligente con generación de respuestas aumentadas (RAG), que utiliza una base de
+                            conocimientos para proporcionar respuestas contextuales y precisas. El sistema se automatiza
+                            con N8n y almacena datos en Supabase.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>N8n</span>
+                            <span>Supabase</span>
+                            <span>RAG</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://github.com/mxencinas" class="btn btn-demo">Demo</a>
+                            <a href="https://github.com/mxencinas" class="btn btn-repo">Repositorio</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section-dark">
+        <div class="container">
+            <h2>Formación</h2>
+            <div class="education-container">
+                <div class="education-card full-width">
+                    <h3>Ingeniería Industrial</h3>
+                    <span class="institution">Universidad Tecnológica Nacional - Regional Buenos Aires</span>
+                    <span class="date">2022 - Presente</span>
+                    <p>Formación en procesos, optimización y gestión de sistemas complejos con enfoque en resolución de problemas y mejora continua.</p>
+                </div>
+            </div>
+
+            <h3 class="courses-title">Cursos Complementarios</h3>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <h4>Acquiring Core ABAP Skills</h4>
+                    <p>Ruta de aprendizaje de ABAP para desarrollo de aplicaciones en SAP.</p>
+                    <div class="course-meta">
+                        <span>SAP Learning</span>
+                        <span class="course-status">En curso</span>
+                    </div>
+                    <a href="https://drive.google.com/drive/folders/1Qv-jE3kAMTn6o9foDqwru3v_mNy-RMCR" class="course-link">Ver certificado <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="course-card">
+                    <h4>Curso de Git y GitHub</h4>
+                    <p>Curso para aprender a utilizar Git y GitHub en proyectos de desarrollo colaborativo.</p>
+                    <div class="course-meta">
+                        <span>CodigoFacilito</span>
+                        <span class="course-status">En curso</span>
+                    </div>
+                    <a href="https://drive.google.com/drive/folders/1Qv-jE3kAMTn6o9foDqwru3v_mNy-RMCR" class="course-link">Ver certificado <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="course-card">
+                    <h4>Curso de aplicaciones web con .NET</h4>
+                    <p>Curso para aprender a desarrollar aplicaciones web utilizando el lenguaje C# y el framework .NET.</p>
+                    <div class="course-meta">
+                        <span>CodigoFacilito</span>
+                        <span class="course-status">En curso</span>
+                    </div>
+                    <a href="https://drive.google.com/drive/folders/1Qv-jE3kAMTn6o9foDqwru3v_mNy-RMCR" class="course-link">Ver certificado <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="course-card">
+                    <h4>Curso de GO profesional</h4>
+                    <p>Desarrollo de aplicaciones con GO, incluyendo la creación de APIs y microservicios.</p>
+                    <div class="course-meta">
+                        <span>CodigoFacilito</span>
+                        <span class="course-status">En curso</span>
+                    </div>
+                    <a href="https://drive.google.com/drive/folders/1Qv-jE3kAMTn6o9foDqwru3v_mNy-RMCR" class="course-link">Ver certificado <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-light">
+        <div class="container contact-container">
+            <div class="contact-info">
+                <h2>Contacto</h2>
+                <p>¿Interesado en trabajar juntos? ¡No dudes en contactarme!</p>
+                <div class="contact-links">
+                    <a href="mailto:mxmencinas@gmail.com?subject=Contacto%20desde%20Portfolio&body=Hola%20Maximiliano,%0A%0AMe%20gustaría%20ponerme%20en%20contacto%20contigo."
+                        aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://wa.me/5491152620896?text=Hola%20Maximiliano,%20vi%20tu%20portfolio%20y%20me%20gustaría%20contactarte."
+                        target="_blank" aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/maximiliano-encinas-1a441a223/" target="_blank"
+                        aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/mxencinas" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Maximiliano Encinas. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
