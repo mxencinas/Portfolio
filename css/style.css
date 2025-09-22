@@ -989,3 +989,139 @@ footer {
     font-size: 0.8rem;
     font-weight: 500;
 }
+
+/* Experiencia Section*/
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background-color: var(--accent-color);
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    position: relative;
+    margin-bottom: 3rem;
+    width: 50%;
+}
+
+.timeline-item:nth-child(even) {
+    align-self: flex-end;
+    justify-content: flex-start;
+    padding-left: 30px;
+    padding-right: 0;
+    left: 50%;
+}
+
+.timeline-content {
+    background-color: var(--card-bg);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    width: 100%;
+    position: relative;
+}
+
+.timeline-content:before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: -10px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid var(--card-bg);
+}
+
+.timeline-item:nth-child(even) .timeline-content:before {
+    right: auto;
+    left: -10px;
+    border-left: none;
+    border-right: 10px solid var(--card-bg);
+}
+
+.timeline-date {
+    display: block;
+    color: var(--accent-color);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.timeline-circle {
+    width: 20px;
+    height: 20px;
+    background-color: var(--accent-color);
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: -10px;
+    transform: translateX(50%);
+}
+
+.timeline-item:nth-child(even) .timeline-circle {
+    right: auto;
+    left: -10px;
+    transform: translateX(-50%);
+}
+
+.skills-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.skills-tags span {
+    background-color: var(--tag-bg);
+    color: var(--tag-text);
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+/* Media Queries para responsividad */
+@media (max-width: 992px) {
+    .timeline:before {
+        left: 30px;
+    }
+
+    .timeline-item {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 0;
+    }
+
+    .timeline-item:nth-child(even) {
+        left: 0;
+        padding-left: 70px;
+    }
+
+    .timeline-content:before {
+        display: none;
+    }
+
+    .timeline-circle {
+        left: 20px;
+        right: auto;
+        transform: translateX(-50%);
+    }
+
+    .timeline-item:nth-child(even) .timeline-circle {
+        right: auto;
+        left: 20px;
+        transform: translateX(-50%);
+    }
+}
